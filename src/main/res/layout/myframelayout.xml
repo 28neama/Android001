@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grang"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@drawable/grang" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#4c374a"
+        android:padding="10dp"
+        android:text="Grand palace , bangkok"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:padding="10dp"
+        android:background="#AA000000"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        android:text="20 nov 2020" />
+
+</FrameLayout>
